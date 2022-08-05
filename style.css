@@ -1,0 +1,35 @@
+body{
+    background: url(./acids/bg.gif);
+    background-size: cover;
+    height: 99vh;
+}
+
+.one{
+   height: 300px;
+   width: 300px;
+   object-fit: contain;
+   position: absolute;
+   bottom: 30px;
+   left: 300px;
+}
+
+.two{
+   height: 400px;
+   width: 400px;
+   object-fit: contain;
+   position: absolute;
+   bottom: 30px;
+   right: 300px;
+}
+
+.btn1{
+   padding: 10px;
+   border-radius: 10px;
+   border: none;
+   margin: 5% 0% 5% 30% ;
+   left: 50%;
+}
+
+.btn1:hover{
+   background-color: rgb(243, 200, 145);
+}
